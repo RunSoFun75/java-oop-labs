@@ -1,6 +1,9 @@
 package ru.nsu.bazarov;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.Map;
 
 public class WordSort {
 
