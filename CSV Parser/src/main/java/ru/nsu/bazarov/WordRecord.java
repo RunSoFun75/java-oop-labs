@@ -15,7 +15,7 @@ public class WordRecord {
             for (Map.Entry<String, Long> entry : wordStatisticArray) {
                 writer.write(entry.getKey() + ",");
                 writer.write(entry.getValue() + ",");
-                writer.write((100. * ((double) entry.getValue() / quantityWords) + "%"));
+                writer.write((100.0f * ((double) entry.getValue() / quantityWords) + "%"));
                 writer.newLine();
             }
         } catch (IOException ex) {
