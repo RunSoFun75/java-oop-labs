@@ -8,7 +8,7 @@ public class WordSort {
         ArrayList<Map.Entry<String, Long> > wordStatisticArray =
                 new ArrayList<>(wordStatisticMap.entrySet());
 
-        wordStatisticArray.sort(new Comparator<Map.Entry<String, Long>>() {
+        wordStatisticArray.sort(new Comparator<Map.Entry<String, Long> >() {
             @Override
             public int compare(Map.Entry<String, Long> o1, Map.Entry<String, Long> o2) {
                 return (o2.getValue().compareTo(o1.getValue()));
