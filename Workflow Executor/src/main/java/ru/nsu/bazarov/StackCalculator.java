@@ -1,8 +1,8 @@
 package ru.nsu.bazarov;
 
-import ru.nsu.bazarov.Commands.Command;
-import ru.nsu.bazarov.Exceptions.BuildCommandException;
-import ru.nsu.bazarov.Exceptions.CommandNotFoundException;
+import ru.nsu.bazarov.commands.Command;
+import ru.nsu.bazarov.exceptions.BuildCommandException;
+import ru.nsu.bazarov.exceptions.CommandNotFoundException;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

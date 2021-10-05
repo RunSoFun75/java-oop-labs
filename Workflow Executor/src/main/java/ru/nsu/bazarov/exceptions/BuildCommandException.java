@@ -1,4 +1,4 @@
-package ru.nsu.bazarov.Exceptions;
+package ru.nsu.bazarov.exceptions;
 
 public class BuildCommandException extends Exception {
 

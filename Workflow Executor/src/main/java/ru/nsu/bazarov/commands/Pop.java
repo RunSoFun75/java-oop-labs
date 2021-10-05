@@ -1,4 +1,4 @@
-package ru.nsu.bazarov.Commands;
+package ru.nsu.bazarov.commands;
 
 import ru.nsu.bazarov.ExecutionContext;
 
